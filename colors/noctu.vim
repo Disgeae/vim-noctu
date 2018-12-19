@@ -122,9 +122,12 @@ hi! link javaScriptBraces  Delimiter
 " PHP {{{
 hi phpSpecialFunction    ctermfg=5
 hi phpIdentifier         ctermfg=11
+hi phpDocParam           ctermfg=15
+hi phpDocIdentifier      ctermfg=3
 hi! link phpVarSelector  phpIdentifier
 hi! link phpHereDoc      String
 hi! link phpDefine       Statement
+hi! link phpDocTags      Type
 
 "}}}
 " Markdown {{{
