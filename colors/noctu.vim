@@ -163,6 +163,9 @@ hi! link gitCommitFile           Directory
 hi! link gitCommitUntrackedFile  gitCommitUnmergedFile
 hi! link gitCommitDiscardedType  gitCommitUnmergedType
 hi! link gitCommitDiscardedFile  gitCommitUnmergedFile
+hi DiffDelete                    ctermfg=1
+hi DiffAdd                       ctermfg=2
+hi DiffChange                    ctermfg=3
 
 "}}}
 " Vim {{{
